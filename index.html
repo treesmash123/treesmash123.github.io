@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>D&D Character Generator</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <img src="img/logo.webp" alt="Logo" id="logo" class="logo">
+        <h1>D&D Character Generator</h1>
+
+        <!-- About Section -->
+        <section id="about">
+            <h2>About This Tool</h2>
+            <p>This character generator assists players and Dungeon Masters alike by creating random characters 
+                for Dungeons & Dragons. It includes a variety of classes, subclasses, races, and backgrounds to make each character unique.</p>
+        </section>
+
+        <!-- Character Generator Section -->
+        <button id="generateButton">Generate Character</button>
+        <div id="characterDisplay">
+            <p><strong>Class:</strong> <span id="class"></span></p>
+            <p><strong>Subclass:</strong> <span id="subclass"></span></p>
+            <p><strong>Race:</strong> <span id="race"></span></p>
+            <p><strong>Background:</strong> <span id="background"></span></p>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
